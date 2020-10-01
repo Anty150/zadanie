@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a = parseFloat(prompt("Podaj liczbę a",""));
+        var b = parseFloat(prompt("Podaj liczbę b",""));
+        var c = parseFloat(prompt("Podaj liczbę c",""));
+        var p = 0.5*(a+b+c);
+        var s = Math.pow(p*(p-a)*(p-b)*(p-c),0.5);
+        document.write("Pole wynosi "+ s);
+    </script>
+</body>
+</html>
